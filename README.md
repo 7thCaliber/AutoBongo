@@ -1,6 +1,6 @@
 # Auto-Bongo 😺
 
-Simple script for personal use in tandem with BongoCat on Steam.
+Simple AHKv2 script for personal use in tandem with BongoCat on Steam.
 
 ### Functionality:
 Scans the entire screen for the BongoCat chest pop-up, and clicks it if found. Operates on a custom time interval; by default scans the entire screen every 10 minutes.
