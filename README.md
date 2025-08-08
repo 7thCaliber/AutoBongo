@@ -8,4 +8,7 @@ Scans the entire screen for the BongoCat chest pop-up, and clicks it if found. O
 ### Installation:
 prerequisites - AutoHotKey v2
 
-Simply download the source code zip file from the latest release (which should include the script and necessary .bmp image), extract to your local machine, and run the .ahk script
+Simply download the source code zip file from the latest release (which should include the script and necessary .bmp image), and extract to your local machine
+
+### Execute Script:
+Run the .ahk script. It will continute running on the custom time interval until the process is quit (see AHK documentation on how to run/quit scripts)
