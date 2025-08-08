@@ -4,7 +4,7 @@
 
 ;---CHANGE THE FOLLOWING VARIABLES AS NEEDED---
 ;How many minutes between each check for the chest pop-up:
-minutes := 10
+minutes := 5
 ;Location of chest image to search for:
 pth:= A_WorkingDir "\bongochest.bmp"
 
@@ -29,7 +29,7 @@ BongoCheck(){
     ;Searches entire screen for chest pop-up image:
     if (ImageSearch(&ix,&iy,-3160,-3160,vScreenW,vScreenH,pth)){
         ;if found, click the chest pop-up:
-        Click ix,iy
+        Click ix+15,iy+12
 
         ;DEBUG: uncomment the following lines if debugging
         ;MouseMove ix,iy
@@ -40,4 +40,5 @@ BongoCheck(){
         ;MsgBox("Not found","result","OK")
     }
     return
+
 }
